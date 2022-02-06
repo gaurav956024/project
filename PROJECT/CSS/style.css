@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+:root {
+    --main-bg-color: #2874f0;
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    
+    width: 88px;
+    padding: 0 25px;
+    
+}
+
+nav ul{
+    display: flex;
+    height: 58px;
+    justify-content: flex-start;
+}
+
+nav ul li{
+list-style: none;
+padding: 23px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+font-weight: bolder;
+}
+
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'Rubik', sans-serif;
+  }
+
+  .container{
+      min-height: calc(100vh - 58px - 12vh);
+  }
+
+  .Search{
+    display: flex;
+    align-items: center;
+  }
+  
+  .Search input{
+    width: 40vw;
+    height: 32px;
+    border-radius: 2px;
+    margin: 0 20px 0 56px;
+    padding: 0 12px;
+  }
+  
+ 
+
+  .Search button{
+    font-family: 'Rubik', sans-serif;  
+  }
+
+.slider{
+    display: block;
+justify-content: center;
+overflow: hidden;
+width: 80vw;
+margin: 12px auto;
+}
+
+.slider img{
+    margin: 12px;
+}
+
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.lines li{
+    list-style: none;
+color: rgb(32, 165, 32);
+}
+
+.card{
+    max-width: 90vw;
+    margin: 35px auto;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .cards{
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+  }
+
+  .card-item{
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0 15px;
+  }
